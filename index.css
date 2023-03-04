@@ -9,7 +9,8 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  background-color: #0c4a6e;
+  background-color: #1B244A;
+  ;
   width: 500px;
   margin: 0 auto;
   text-align: center;
