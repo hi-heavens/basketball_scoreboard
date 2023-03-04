@@ -9,8 +9,7 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  background-color: #1B244A;
-  ;
+  background-color: #1b244a;
   width: 500px;
   margin: 0 auto;
   text-align: center;
@@ -55,5 +54,26 @@ body {
 }
 
 .points p:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #1b244a;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 40px 20px 40px;
+}
+
+#reset {
+  border-style: none;
+  padding: 10px 20px;
+  font-family: "Cursed Timer ULiL";
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset:active {
+    transform: scale(0.9);
 }

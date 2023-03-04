@@ -33,3 +33,10 @@ function addThree(parameter) {
         guest.textContent = currentGuestScore;
       }
 }
+
+function reset(){
+    guest.textContent = 0;
+    home.textContent = 0;
+    currentHomeScore = 0;
+    currentGuestScore = 0;
+}
