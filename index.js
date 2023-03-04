@@ -1,8 +1,8 @@
 let home = document.getElementById("home");
 let guest = document.getElementById("guest");
 
-let currentHomeScore = parseInt(home.innerText);
-let currentGuestScore = parseInt(guest.innerText);
+let currentHomeScore = 0;
+let currentGuestScore = 0;
 
 function addOne(parameter) {
   if (parameter === "one") {
