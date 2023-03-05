@@ -44,6 +44,9 @@ function leader() {
   } else if (currentHomeScore < currentGuestScore) {
     guest.classList.add("leader");
     home.classList.remove("leader");
+  } else {
+    home.classList.remove("leader");
+    guest.classList.remove("leader");
   }
 }
 
