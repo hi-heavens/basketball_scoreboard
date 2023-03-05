@@ -80,6 +80,6 @@ body {
 }
 
 .leader {
-    border: 2px solid #86CB92;
+    outline: 2px solid #86CB92;
     color: #86CB92;
 }
